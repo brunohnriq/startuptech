@@ -1,0 +1,47 @@
+/*Tag Header*/
+header{
+  background-color:#A9A9A9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+/*Seletor Universal*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*id logo-header*/
+#logo-header{
+  width: 300px;
+  margin-left: 100px;
+}
+/*id nav-header*/
+#nav-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+/*class item-nave*/
+.item-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+/*class icone-item-nav*/
+
+.icone-item-nav{
+  font-size: 30px;
+}
+/* class link-item-nav*/
+.link-item-nav{
+text-decoration: none;
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
+}
+
